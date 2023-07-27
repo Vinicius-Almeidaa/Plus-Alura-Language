@@ -163,3 +163,37 @@ body{
     color: var(--botao-azul);
   
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+         display: block;
+         background-image: none;
+         
+    }
+ 
+    .container_imagem{
+         width: 50vw;
+    }
+ 
+    .container_caixa{
+         margin: 2em 2em;
+    }
+    
+    .secundario{
+     margin: auto;
+     text-align: center;
+    }
+ 
+    .secundario_imagem{
+     width: 50vw;
+    }
+ 
+    .dispositivos_listas{
+     display: block;
+    }
+ 
+    .rodape_lista{
+     display: block;
+    }
+ 
+ }
